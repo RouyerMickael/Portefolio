@@ -1,1 +1,1 @@
-$('#laravel').css("background-color", "red");
+//$('#laravel').css("background-color", "red");
