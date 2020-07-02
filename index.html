@@ -6,80 +6,137 @@
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/index.css">
     <!--<audio id="music" src="assets/audio/musique.mp3" autoplay></audio>-->
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Nunito:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>    
 
-    <nav class="navbar fixed-top container">
-        <ul>Menu1</ul>
-        <ul>Menu2</ul>
-        <ul>Menu3</ul>
-        <ul>Menu4</ul>
-        <ul>Menu5</ul>
-        <ul>Menu6</ul>
+    <nav class="navPerso navbar fixed-top navbar-light container-fluid">
+        <div class="container">
+            <li class="navItem list-unstyled list-group-item">Présentation</li>
+            <li class="navItem list-unstyled list-group-item">Contact</li>
+            <li class="navItem list-unstyled list-group-item">Qualités</li>
+            <li class="navItem list-unstyled list-group-item">Projets</li>
+            <li class="navItem list-unstyled list-group-item">Hobbies</li>
+            <li class="navItem list-unstyled list-group-item">Formulaire</li>
+        </div>
     </nav>
 
     <div class="cover row">
         <img src="assets/img/nantes.jpg" class="img-fluid container-fluid" alt="Responsive image">
-        <div class="centered"><h3>"Envoyez-moi s"</h3></div>
+        <div class="centered text-center">
+            <h2 class="seServir">"Se servir d'hier pour construire demain."</h2>
+            <h4 class="rouyer">Rouyer Mickael | Développeur Web.</h4>
+        </div>
     </div>
 
-    IMPERATIFS : FLAT DESIGN - SEO - ONE PAGE - RESPONSIVE
+    <p class="text-center">(Impératifs de projet : no-templates, flat-design, seo, responsive)</p>
+
 
     <div class="container">
-
+        <!--Presentation-->
         <div class="presentation container-fluid">
-            <div class="row">
-                <h2>PRESENTATION</h2>
-            </div>
             <div class="row align-items-center">
-                <div class="col-7">
-                    <h4>Caractère</h4>
-                    <h4>Trente-deux vers, sans rien savoir, pas plus tôt entendu ces mots, tous regardèrent l'étranger avec inquiétude. Militaire et civil, chacun prit sa position dans la maison par pure formalité. On traverse sur un pont, baisser la tête, puis mit sa monture à laquelle il n'insista pas. Analyse-la, réduis-la à de simples curieux. </h4>
+                <div class="col-9">
+                    <div class="row">
+                        <h3 class="presTitle">PRESENTATION</h3>
+                    </div>
+                    <h5>Méthodique, rigoureux, travailleur, créatif...</h5>
+                    <h5 class="presText">
+                        J'ai depuis toujours été attiré par l'informatique et ses nombreux dérivés. Travailleur
+                        depuis l'âge de mes 18ans (vente/management), il était compliqué 
+                        pour moi de trouver le bon moment de tenter autre chose. Finalement une opportunité s'est offerte via
+                        Epitech Marseille, et un accord a pu être trouvé avec mon ancien employeur.
+                        Depuis Septembre 2019, je code donc tout type de langage en Front et Back-end. Je n'avais jamais touché à
+                        un éditeur de texte avant cela, la progression en regardant dans le rétro est donc assez importante, et j'ai
+                        soif d'apprendre encore davantage.
+                    </h5>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-4">
+                <div class="col-3 text-center cadrePhoto">
                     <img class="img-thumbnail rounded-circle photo" src="assets/img/photo.jpg">
                 </div>
             </div>
         </div>
-
-        <div class="coordonnees container-fluid">
+        <!--Contact-->
+        <div class="contact container-fluid">
             <div class="row">
-                <h2>COORDONNEES</h2>
+                <h3>COORDONNEES</h3>
             </div>
             <div class="row">
                 <div class="col-6">
                     <h4>Adresse:</h4>
+                    <h5>79 route départementale 8</h5>
+                    <h5>13780 Cuges-les-Pins</h5>
                     <h4>Réseaux sociaux professionnels:</h4>
-                    <h4>Statut de recherche:</h4>
+                    <a target="_blank" href="https://www.linkedin.com/in/mickael-rouyer"><h5>www.linkedin.com/in/mickael-rouyer</h5></a>
                 </div>
                 <div class="col-6">
-                    <h4>Statut de recherche:</h4>
-                    <button type="button" class="btn btn-primary">Voir/Récupérer mon CV</button>               
+                    <h4>Recherche:</h4>
+                    <h5 class="alert">Contrat de professionnalisation en alternance à partir de Septembre 2020</h5>
+                    <h4>Statut:</h4>
+                    <h5 class="alert">Non trouvé !</h5>
                 </div>
             </div>
         </div>
-
+        <!--Qualites-->
         <div class="qualites container-fluid">
             <div class="row">
-                <h2>QUALITES PROFESSIONNELLE</h2>
+                <h2>QUALITES PROFESSIONNELLES</h2>
             </div>
             <div class="row">
                 <div class="col border-bottom border-right">
-                    <h4>Diplomes</h4>
-                </div>
+                    <div class="col">
+                        <div class="row">
+                            <h4>Formations</h4>
+                        </div>
+                        <div class="col">
+                            <h5>Depuis Nov. 2019 - Web@cadémie - Epitech Marseille
+                            Diplôme visé : Développeur Web Bac+2 (diplôme certifié)</h5>           
+                        </div>
+                        </div>
+                    </div>
                 <div class="col border-bottom border-left">
-                    <h4>Compétences</h4>
+                    <div class="col">
+                        <div class="row">
+                            <h4>Diplomes</h4>
+                        </div>
+                        <div class="col">
+                            <h5>2010 - BTS Negociation et Relations Client (bac+2)</h5>
+                            <h5>2007 - BAC Economie et Sociologie</h5>
+                            <h5>2004 - Brevet des collèges</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="w-100"></div>
                 <div class="col border-top border-right">
-                    <h4>Formations</h4>
+                    <div class="col">
+                        <div class="row">
+                            <h4>Formations</h4>
+                        </div>
+                        <div class="col">
+                            <h5>Depuis Nov. 2019 - Web@cadémie - Epitech Marseille
+                            Diplôme visé : Développeur Web Bac+2 (diplôme certifié)</h5> 
+                        </div>
+                    </div>
                 </div>
                 <div class="col border-top border-left">
-                    <h4>Expériences</h4>
+                    <div class="col">
+                        <div class="row">
+                            <h4>Diplomes</h4>
+                        </div>
+                        <div class="col">
+                            <h5>2010 - BTS Negociation et Relations Client (bac+2)</h5>
+                            <h5>2007 - BAC Economie et Sociologie</h5>
+                            <h5>2004 - Brevet des collèges</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>        
+            <div class="row">
+                <div class="col text-center">
+                    <button type="button" class="btn btn-primary">Voir/Récupérer mon CV</button>  
+                </div>           
+            </div>     
+        </div>   
         <div class="projets container-fluid">
             <div class="row">
                 <h2>EXEMPLES DE PROJETS REALISES</h2>

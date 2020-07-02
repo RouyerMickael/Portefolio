@@ -80,7 +80,6 @@ $('#ajaxRep').click(function(e){
 });
 
 $('#reactVig').click(function(e){
-    console.log("toto")
     if($('#react').is(":hidden")){
         $('#react').removeAttr("hidden");
     } else if ($('#react').children("div").is(":visible")){
@@ -98,7 +97,6 @@ $('#reactRep').click(function(e){
 });
 
 $('#socketVig').click(function(e){
-    console.log("toto")
     if($('#socket').is(":hidden")){
         $('#socket').removeAttr("hidden");
         $('#socketMusic')[0].play();
@@ -120,7 +118,6 @@ $('#socketRep').click(function(e){
 });
 
 $('#sqlVig').click(function(e){
-    console.log("toto")
     if($('#sql').is(":hidden")){
         $('#sql').removeAttr("hidden");
     } else if ($('#sql').children("div").is(":visible")){
@@ -138,7 +135,6 @@ $('#sqlRep').click(function(e){
 });
 
 $('#algoVig').click(function(e){
-    console.log("toto")
     if($('#algo').is(":hidden")){
         $('#algo').removeAttr("hidden");
     } else if ($('#algo').children("div").is(":visible")){
