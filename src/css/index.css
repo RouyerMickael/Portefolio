@@ -1,3 +1,8 @@
+/*ALL*/
+h3{
+    font-family: 'Nunito', sans-serif;
+}
+
 /*NAVBAR*/
 .navPerso{
     background-color: rgb(44, 44, 44);
@@ -30,6 +35,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border: white 4px solid;
+    border-radius: 10px;
     padding: 2rem;
     background-color: rgb(0, 0, 0, 0.5);
 }
@@ -44,16 +50,18 @@ body{
     font-family: 'Nunito', sans-serif;
     text-shadow: black 1px 0 10px;
     border-top: white 2px solid;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background-color: rgb(0, 0, 0, 0.75);
 }
 
 /*PRESENTATION*/
 #presentation{
-    padding-top: 6rem;
-    margin: 1rem;
-    margin-bottom: 4rem;
+    min-height: 40vh;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .img-thumbnail{
     background-color: transparent;
@@ -71,9 +79,12 @@ body{
 
 /*CONTACT*/
 #contact{
-    padding-top: 6rem;
-    margin: 1rem;
-    margin-bottom: 4rem;  
+    min-height: 60vh;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
 }
 .alert{
     padding: 0;
@@ -82,9 +93,11 @@ body{
 
 /*QUALITES*/
 #qualites{
-    padding-top: 6rem;
-    margin: 1rem;
-    margin-bottom: 4rem;  
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
 }
 .grid{
     margin-top: 1rem;
@@ -99,6 +112,11 @@ body{
 .colRight{
     padding-left: 2rem;
 }
+.bandeLogos{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
 .logo{
     max-width: 5rem;
     margin-top: 0.5rem;
@@ -111,9 +129,11 @@ body{
 
 /*PROJECTS*/
 #projects{
-    padding-top: 6rem;
-    margin: 1rem;
-    margin-bottom: 4rem;  
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
 }
 .bg-image {
     filter: blur(8px);
@@ -151,11 +171,20 @@ body{
     background-color: rgba(31, 31, 31, 0.5);
 }
 .lookProject{
-    margin: 1rem;
-    margin-top: 2.5rem;
     line-height: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.audio{
+    margin-bottom: 1rem;
 }
 .replier{
+    margin-top: 3rem;
+    padding: 2rem;
+    border-top: white 2px solid;
+    color: rgb(74, 107, 218);
+}
+.replierAll{
     margin-top: 3rem;
     padding: 2rem;
     border-top: white 2px solid;
@@ -164,13 +193,17 @@ body{
 .replier:hover{
     cursor: pointer;
 }
+.replierAll:hover{
+    cursor: default;
+}
 
 /*CENTRES D'INTERET*/
 #hobbies{
-    padding-top: 6rem;
-    margin: 1rem;
-    margin-bottom: 4rem; 
-    line-height: 2rem; 
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
 }
 .imgHobbies{
     max-height: 14rem;
@@ -184,10 +217,11 @@ body{
 
 /*FORMULAIRE*/
 #formSection{
-    padding-top: 6rem;
-    margin: 1rem;
-    margin-bottom: 4rem; 
-    line-height: 2rem;    
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
 }
 .form{
     background-color: black;
@@ -198,9 +232,21 @@ body{
 
 /*BONUS*/
 #bonus{
-    padding-top: 6rem;
-    margin: 1rem;
-    margin-bottom: 4rem; 
-    line-height: 2rem;      
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
+}
+.bg-text-bonus{
+    max-height: 30%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
 }
 
