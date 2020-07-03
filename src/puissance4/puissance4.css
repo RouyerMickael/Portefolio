@@ -1,0 +1,63 @@
+body{
+    background-color: blanchedalmond;
+}
+
+#title{
+    padding: 1%;
+}
+
+#div_plugin{
+    display: flex;
+}
+
+#toolbar_choice_id{
+    font-weight: bold;
+}
+
+.row{
+    border-bottom: 1px red solid;
+}
+
+.col-md-12{
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
+.img_domicile{
+    width: 120px;
+    height: 120px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.img{
+    width: 120px;
+    height: 120px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.img_versus{
+    width: 80px;
+    height: 80px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+#audio_player{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;;
+    display: table-cell; 
+    vertical-align: middle;
+    border-radius: 4%;
+}

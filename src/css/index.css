@@ -18,6 +18,12 @@ body{
 }
 
 /*COVER*/
+.picture{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -44,30 +50,29 @@ body{
 }
 
 /*PRESENTATION*/
+#presentation{
+    padding-top: 6rem;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
 .img-thumbnail{
     background-color: transparent;
 }
 .presTitle{
     margin-bottom: 1rem;
 }
-.presentation{
-    margin: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
 .presText{
     line-height: 2rem;
 }
 .photo{
-    max-height: 320px;
-    border: solid white 3px;
-    padding: 10px;
+    margin-left: 1rem;
+    max-height: 220px;
 }
 
 /*CONTACT*/
-.contact{
+#contact{
+    padding-top: 6rem;
     margin: 1rem;
-    margin-top: 4rem;
     margin-bottom: 4rem;  
 }
 .alert{
@@ -75,7 +80,41 @@ body{
     color: red;
 }
 
+/*QUALITES*/
+#qualites{
+    padding-top: 6rem;
+    margin: 1rem;
+    margin-bottom: 4rem;  
+}
+.grid{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.colUp{
+    padding-bottom: 2rem;
+}
+.colDown{
+    padding-top: 2rem;
+}
+.colRight{
+    padding-left: 2rem;
+}
+.logo{
+    max-width: 5rem;
+    margin-top: 0.5rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1rem;
+}
+.job{
+    margin-top: 1rem;
+}
+
 /*PROJECTS*/
+#projects{
+    padding-top: 6rem;
+    margin: 1rem;
+    margin-bottom: 4rem;  
+}
 .bg-image {
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -96,10 +135,72 @@ body{
 .imgPro{
     height: 170px;
 }
-
-/*QUALITES*/
-.qualites{
-    margin: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;  
+.vigns{
+    margin-top: 2rem;
 }
+.separate{
+    margin: 1rem;
+}
+.titleVign{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: white 2px solid;
+    padding: 10px;
+    background-color: rgba(31, 31, 31, 0.5);
+}
+.lookProject{
+    margin: 1rem;
+    margin-top: 2.5rem;
+    line-height: 1rem;
+}
+.replier{
+    margin-top: 3rem;
+    padding: 2rem;
+    border-top: white 2px solid;
+    color: rgb(74, 107, 218);
+}
+.replier:hover{
+    cursor: pointer;
+}
+
+/*CENTRES D'INTERET*/
+#hobbies{
+    padding-top: 6rem;
+    margin: 1rem;
+    margin-bottom: 4rem; 
+    line-height: 2rem; 
+}
+.imgHobbies{
+    max-height: 14rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.imgUK{
+    max-height: 10rem;
+    margin: 1rem; 
+}
+
+/*FORMULAIRE*/
+#formSection{
+    padding-top: 6rem;
+    margin: 1rem;
+    margin-bottom: 4rem; 
+    line-height: 2rem;    
+}
+.form{
+    background-color: black;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 3rem;
+}
+
+/*BONUS*/
+#bonus{
+    padding-top: 6rem;
+    margin: 1rem;
+    margin-bottom: 4rem; 
+    line-height: 2rem;      
+}
+
