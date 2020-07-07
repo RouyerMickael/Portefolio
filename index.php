@@ -35,7 +35,7 @@
         <img src="assets/img/nantes.jpg" class="picture container-fluid" alt="Responsive image">
         <div class="centered text-center">
             <h2 class="seServir ml3">"Se servir d'hier pour construire demain."</h2>
-            <h4 class="rouyer">Rouyer Mickael | Développeur Web.</h4>
+            <h4 class="rouyer">Rouyer Mickael | Développeur Web</h4>
             <p class="text-center">(Impératifs de projet : no-templates, flat-design, seo, responsive)</p>
             <p class="text-center">WORK IN PROGRESS....</p>
         </div>
@@ -65,33 +65,34 @@
     </div>
     <!--Contact-->
     <div id="contact" class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <h3>COORDONNEES</h3>
-            </div>
-            <br/>
-            <div class="row">
-                <div class="col-6">
-                    <h4>Mail de contact:</h4>
-                    <a target="_blank" href="mailto:mickael.rouyer@outlook.fr"><h5>mickael.rouyer@outlook.fr</h5></a>
-                    <br/>
-                    <h4>Téléphone:</h4>
-                    <h5>07-79-80-53-51</h5>
-                    <br/>
-                    <h4>Adresse:</h4>
-                    <h5>79 route départementale 8</h5>
-                    <h5>13780 Cuges-les-Pins</h5>
-                    <br/>
+        <div class="container div_contact">
+            <div class="contentContact">
+                <div class="row">
+                    <h3 class="titleContacts">CONTACTS</h3>
                 </div>
-                <div class="col-6">
-                    <h4>Réseaux sociaux professionnels:</h4>
-                    <a target="_blank" href="https://www.linkedin.com/in/mickael-rouyer"><h5>www.linkedin.com/in/mickael-rouyer</h5></a>
-                    <br/>
-                    <h4>Recherche:</h4>
-                    <h5 class="alert">Contrat de professionnalisation en alternance à partir de Septembre 2020</h5>
-                    <br/>
-                    <h4>Statut:</h4>
-                    <h5 class="alert">Non trouvé !</h5>
+                <br/>
+                <div class="row">
+                    <div class="col-6">
+                        <h4><span class="titre">Mail de contact:</span></h4>
+                        <a class="linkContacts" target="_blank" href="mailto:mickael.rouyer@outlook.fr"><h5>mickael.rouyer@outlook.fr</h5></a>
+                        <br/>
+                        <h4><span class="titre">Téléphone:</span></h4>
+                        <h5>07-79-80-53-51</h5>
+                        <br/>
+                        <h4><span class="titre">Adresse:</span></h4>
+                        <h5>79 route départementale 8</h5>
+                        <h5>13780 Cuges-les-Pins</h5>
+                        <br/>
+                    </div>
+                    <div class="col-6">
+                        <h4><span class="titre">Réseaux sociaux professionnels:</span></h4>
+                        <a class="linkContacts" target="_blank" href="https://www.linkedin.com/in/mickael-rouyer"><h5>www.linkedin.com/in/mickael-rouyer</h5></a>
+                        <br/>
+                        <h4><span class="titre">Recherche:</span></h4>
+                        <h5 class="alert">Contrat de professionnalisation en alternance à partir de Septembre 2020</h5>
+                        <h4><span class="titre">Statut:</span></h4>
+                        <h5 class="alert">Non trouvé !</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,29 +101,33 @@
     <div id="qualites" class="container-fluid">
         <div class="container">
             <div class="row">
-                <h3>QUALITES PROFESSIONNELLES</h3>
+                <h3 class="">PARCOURS PROFESSIONNEL</h3>
             </div>
             <br/>
-            <div class="row grid">
+            <div class="row grid div_qualites">
                 <div class="colUp col border-bottom border-right">
                     <div class="col">
                         <div class="row">
-                            <h4>Formations</h4>
+                            <h4><span class="titreQualites">Formations</span></h4>
                         </div>
-                        <div class="col">
-                            <h5>Depuis novembre 2019 : Web@cadémie at Epitech Marseille.
-                            Diplôme visé: développeur Web Bac+2</h5>           
+                        <div class="col colsQualites">
+                            <h5>Depuis novembre 2019 :</h5>
+                            <ul>
+                                <li><h5>Développeur web bac+2</h5></li>
+                            </ul>                  
+                            <h5>At Web@cadémie - Epitech Marseille</h5>
                         </div>
                         </div>
                     </div>
                 <div class="colUp colRight col border-bottom border-left">
                     <div class="col">
                         <div class="row">
-                            <h4>Diplomes</h4>
+                            <h4><span class="titreQualites">Diplomes</span></h4>
                         </div>
-                        <div class="col">
-                            <h5>2010 - BTS Negociation et Relations Client (bac+2)</h5>
-                            <h5>2007 - BAC Economie et Sociologie</h5>
+                        <div class="col colsQualites">
+                            <h5>2010 : BTS Negociation et Relations Client (bac+2)</h5>
+                            <br/>
+                            <h5>2007 : BAC Economie et Sociologie</h5>
                         </div>
                     </div>
                 </div>
@@ -130,9 +135,9 @@
                 <div class="colDown col border-top border-right">
                     <div class="col">
                         <div class="row">
-                            <h4>Compétences</h4>
+                            <h4><span class="titreQualites">Compétences</span></h4>
                         </div>
-                        <div class="col">
+                        <div class="col colsQualites">
                             <div class="row">
                                 <h5>Front</h5>
                             </div>
@@ -167,7 +172,7 @@
                             <div class="col">
                                 <div class="row bandeLogos text-center">
                                     <div class="col">
-                                        <img class="logo" src="assets/img/comp/native.png">
+                                        <img class="logo logoReact" src="assets/img/comp/native.png">
                                     </div>
                                 </div>
                             </div>
@@ -191,9 +196,9 @@
                 <div class="colDown colRight col border-top border-left">
                     <div class="col">
                         <div class="row">
-                            <h4>Expérience</h4>
+                            <h4><span class="titreQualites">Expérience</span></h4>
                         </div>
-                        <div class="col">
+                        <div class="col colsQualites">
                             <div class="col job">
                                 <div class="row">
                                     <h5>2016-2019 : Manager/Vendeur - Micromania</h5>
@@ -201,8 +206,8 @@
                                 <div class="col">
                                     <div class="row">
                                         <ul>
-                                            <li>satisfaction client</li>
-                                            <li>management</li>
+                                            <li><h6>satisfaction client</h6></li>
+                                            <li><h6>management</h6></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -214,8 +219,8 @@
                                 <div class="col">
                                     <div class="row">
                                         <ul>
-                                            <li>responsabilités </li>
-                                            <li>rigueur </li>
+                                            <li><h6>responsabilités</h6></li>
+                                            <li><h6>rigueur</h6></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -227,7 +232,7 @@
                                 <div class="col">
                                     <div class="row">
                                         <ul>
-                                            <li>autonomie</li>
+                                            <li><h6>autonomie</h6></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -239,10 +244,23 @@
                                 <div class="col">
                                     <div class="row">
                                         <ul>
-                                            <li>anticipation</li>
-                                            <li>pédagogie</li>
-                                            <li>responsabilités</li>
-                                            <li>rigueur</li>
+                                            <li><h6>anticipation</h6></li>
+                                            <li><h6>pédagogie</h6></li>
+                                            <li><h6>responsabilités</h6></li>
+                                            <li><h6>rigueur</h6></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col job">
+                                <div class="row">
+                                    <h5>2004-2007 : Divers vente</h5>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <ul>
+                                            <li><h6>apprentissage</h6></li>
+                                            <li><h6>satisfaction client</h6></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -255,7 +273,7 @@
             <div class="row">
                 <div class="col text-center">
                     <a href="assets/docs/cv.pdf" download>
-                        <button type="button" class="btn btn-primary">Récupérer mon CV</button>
+                        <button type="button" class="btn btn-primary btnRecup">Récupérer mon CV</button>
                     </a>  
                 </div>           
             </div> 
@@ -270,49 +288,65 @@
                 </div>
                 <div class="row vigns">
                     <div id="laravelVig" class="col vign">
-                        <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
-                        <h4 class ="titleVign">Laravel</h4>
+                        <a class="linkVigns" href="#laravel">
+                            <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
+                            <h4 class ="titleVign">Laravel</h4>
+                        </a>
                     </div>
                     <div id="symfonyVig" class="col vign">
-                        <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
-                        <h4 class ="titleVign">Symfony</h4>
+                        <a class="linkVigns" href="#symfony">
+                            <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
+                            <h4 class ="titleVign">Symfony</h4>
+                        </a>
                     </div>
                     <div id="cakeVig" class="col vign">
-                        <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
-                        <h4 class ="titleVign">CakePhP</h4>
+                        <a class="linkVigns" href="#cake">
+                            <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
+                            <h4 class ="titleVign">CakePhP</h4>
+                        </a>
                     </div>
                     <div id="ajaxVig" class="col vign">
-                        <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
-                        <h4 class ="titleVign">Ajax</h4>
+                        <a class="linkVigns" href="#ajax">
+                            <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
+                            <h4 class ="titleVign">Ajax</h4>
+                        </a>
                     </div>
                     <div class="w-100 separate"></div>
                     <div id="reactVig" class="col vign">
-                        <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
-                        <h4 class ="titleVign">React</h4>
+                        <a class="linkVigns" href="#react">
+                            <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
+                            <h4 class ="titleVign">React</h4>
+                        </a>
                     </div>
                     <div id="socketVig" class="col vign">
-                        <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
-                        <h4 class ="titleVign">Socket</h4>
+                        <a class="linkVigns" href="#socket">
+                            <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
+                            <h4 class ="titleVign">Socket</h4>
+                        </a>
                     </div>
                     <div id="sqlVig" class="col vign">
+                        <a class="linkVigns" href="#sql">
                             <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
                             <h4 class ="titleVign">SQL</h4>
+                        </a>
                     </div>
                     <div id="algoVig" class="col vign">
-                        <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
-                        <h4 class ="titleVign">Algorithmie</h4>
+                        <a class="linkVigns" href="#algo">  
+                            <img class="bg-image img-thumbnail" src="assets/img/projects/vignette.jpg">
+                            <h4 class ="titleVign">Algorithmie</h4>
+                        </a>
                     </div>
                 </div>
                 <div class="container">
                     <div class="row replierAll">
                         <div class="col">
-                            <h6 id="cliquezVign" class="text-center">- - - - - - - Cliquez sur une vignette pour plus de détails - - - - - - -</h6>
+                            <h6 id="cliquezVign" class="clickVign text-center">- - - - - - - Cliquez sur une vignette pour plus de détails - - - - - - -</h6>
                         </div>
                     </div>
                 </div>                          
                 <div id="laravel" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"Free Ads" - Laravel - Projet Seul sur 7 jours - Avril 2020</h4>
+                        <h4 class="titreProjects">"Free Ads" - Laravel - Projet Seul sur 7 jours - Avril 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but de ce projet était de recréer un site d'annonces à partir du framework php Laravel 
@@ -338,7 +372,7 @@
                         <h5>Aperçu sonore :</h5>
                         <audio class="audio" id="laravelMusic" src="assets/audio/laravel.mp3" controls></audio>
                         <br/>
-                        <h5>Aperçu visuel :</h5>
+                        <h5>Aperçus visuels (cliquez pour agrandir):</h5>
                         <div class="row">
                             <div class="col d-flex justify-content-center">
                             <a target="_blank" href="assets/img/projects/laravel/entree.png">
@@ -368,7 +402,7 @@
                 </div>
                 <div id="symfony" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"My Quizz" - Symfony - Projet Seul sur 15 jours - Mai 2020</h4>
+                        <h4 class="titreProjects">"My Quizz" - Symfony - Projet Seul sur 15 jours - Mai 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but de ce projet était de recréer un site de quizz avec le framework Symfony, dont la 
@@ -422,7 +456,7 @@
                 </div>
                 <div id="cake" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"Pie PHP" - CakePhp - Projet Seul sur 21 jours - Avril 2020</h4>
+                        <h4 class="titreProjects">"Pie PHP" - CakePhp - Projet Seul sur 21 jours - Avril 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but du projet était de recréer un framework PHP similaire à CakePhp et de nature MVC. Nous devions
@@ -476,7 +510,7 @@
                 </div>
                 <div id="ajax" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"Tweet Académie" - Php/Ajax - Projet en Duo sur 21 jours - Fevrier 2020</h4>
+                        <h4 class="titreProjects">"Tweet Académie" - Php/Ajax - Projet en Duo sur 21 jours - Fevrier 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but de ce projet était de recréer un tweeter et l'essentiel de ses fonctionnalités, en étant 
@@ -526,7 +560,7 @@
                 </div>
                 <div id="react" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"My Snapchat" - React && React Native (mobile) - Projet en Duo sur 7 jours - Mai 2020</h4>
+                        <h4 class="titreProjects">"My Snapchat" - React && React Native (mobile) - Projet en Duo sur 7 jours - Mai 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but de ce projet était de proposer deux versions d'un simili de Snapchat:  une version web assurée
@@ -579,7 +613,7 @@
                 </div>
                 <div id="socket" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"My IRC" - Socket io/Node && React - Projet en Duo sur 15 jours - Juin 2020</h4>
+                        <h4 class="titreProjects">"My IRC" - Socket io/Node && React - Projet en Duo sur 15 jours - Juin 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but de ce projet était de créer un chat complet composé de rooms, à l'image d'un Discord et 
@@ -637,7 +671,7 @@
                 </div>
                 <div id="sql" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"My Cinema" - SQL/PHP - Projet seul sur 15 jours - Janvier 2020</h4>
+                        <h4 class="titreProjects">"My Cinema" - SQL/PHP - Projet seul sur 15 jours - Janvier 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but de ce projet était de recréer un intranet de cinéma. C'était mon premier gros projet, réalisé
@@ -688,7 +722,7 @@
                 </div>
                 <div id="algo" hidden class="row lookProject">
                     <div class="col">
-                        <h4>"Pushwap" - Algorithmie/PHP - Projet seul sur 7 jours - Avril 2020</h4>
+                        <h4 class="titreProjects">"Pushwap" - Algorithmie/PHP - Projet seul sur 7 jours - Avril 2020</h4>
                         <br/>
                         <h5>Description du projet :</h5>
                         <h6>Le but de ce projet était de trier une série infinie de chiffres dans l'ordre, avec 
@@ -754,7 +788,7 @@
     <div id="hobbies" class="container-fluid">
         <div class="container">
             <div class="col">
-                <div class="row">
+                <div class="row rowTitreHobbies">
                     <h3>ME CONNAITRE DAVANTAGE</h3>
                 </div>
                 <br/>
@@ -762,9 +796,9 @@
                     <div class="col">
                         <div class="row">
                             <div class="col">
-                                <h4>Ce qui me caractérise:</h4>
+                                <h4 class="titreHobbies">Ce qui me caractérise:</h4>
                                 <br/>
-                                <div class="text-center">
+                                <div class="text-center hobbiesRow">
                                     <a href="https://youtu.be/4--iEOftLZ4?t=75" target="_blank">
                                         <img class="imgHobbies img-thumbnail rounded" src="assets/img/hobbies/hockey.jpg">
                                     </a>
@@ -781,13 +815,16 @@
                         <br/>
                         <div class="row">
                             <div class="col">
-                                <h4>Langues parlées:</h4>
-                                <div class="row col align-items-center">
-                                    <div class="col d-flex justify-content-end">
-                                        <img class="imgUK rounded" src="assets/img/hobbies/uk.png">
-                                    </div>
-                                    <div class="col">
-                                        <h5>Niveau intermédiaire</h5>
+                                <h4 class="titreHobbies">Langues parlées:</h4>
+                                <br/>
+                                <div class="col">
+                                    <div class="row align-items-center hobbiesRow">
+                                        <div class="col d-flex justify-content-end">
+                                            <img class="imgUK rounded" src="assets/img/hobbies/uk.png">
+                                        </div>
+                                        <div class="col">
+                                            <h5 class="intermediaire">Niveau intermédiaire</h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -840,13 +877,12 @@
     </div>
     <!--BONUS-->
     <div id="bonus" class="container-fluid">
-        <div class="container">
-            <div class="col">
-                <div class="row">
-                    <h2>BONUS</h2>
-                </div>
-                <br/>
-                <div  class="col text-center">
+        <div class="container text-center">
+                <div class="col">
+                    <div class="row text-center">
+                        <h3>BONUS</h3>
+                    </div>
+                    <br/>
                     <a href="src/puissance4/puissance4.html" target="_blank">
                         <img class="bg-image img-thumbnail" src="assets/img/projects/bonus.jpg">
                         <div class="bg-text-bonus">
@@ -855,7 +891,6 @@
                         </div>
                     </a>
                 </div>
-            </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>

@@ -20,8 +20,6 @@ anime.timeline({loop: true})
 $('#laravelVig').click(function(e){
     if($('#laravel').is(":hidden")){
         $('#laravel').removeAttr("hidden");
-        $('#laravelMusic')[0].play();
-        $('#cliquezVign').remove();
     } else if ($('#laravel').children("div").is(":visible")){
         e.stopPropagation();
         $('#laravel').prop("hidden", "true");
@@ -31,7 +29,6 @@ $('#laravelVig').click(function(e){
 $('#laravelRep').click(function(e){
     if($('#laravel').is(":hidden")){
         $('#laravel').removeAttr("hidden");
-        $('#laravelMusic')[0].play();
     } else if ($('#laravel').children("div").is(":visible")){
         e.stopPropagation();
         $('#laravel').prop("hidden", "true");
@@ -42,7 +39,6 @@ $('#laravelRep').click(function(e){
 $('#symfonyVig').click(function(e){
     if($('#symfony').is(":hidden")){
         $('#symfony').removeAttr("hidden");
-        $('#symfonyMusic')[0].play();
     } else if ($('#symfony').children("div").is(":visible")){
         e.stopPropagation();
         $('#symfony').prop("hidden", "true");
@@ -52,7 +48,6 @@ $('#symfonyVig').click(function(e){
 $('#symfonyRep').click(function(e){
     if($('#symfony').is(":hidden")){
         $('#symfony').removeAttr("hidden");
-        $('#symfonyMusic')[0].play();
     } else if ($('#symfony').children("div").is(":visible")){
         e.stopPropagation();
         $('#symfony').prop("hidden", "true");
@@ -63,7 +58,6 @@ $('#symfonyRep').click(function(e){
 $('#cakeVig').click(function(e){
     if($('#cake').is(":hidden")){
         $('#cake').removeAttr("hidden");
-        $('#cakeMusic')[0].play();
     } else if ($('#cake').children("div").is(":visible")){
         e.stopPropagation();
         $('#cake').prop("hidden", "true");
@@ -73,7 +67,6 @@ $('#cakeVig').click(function(e){
 $('#cakeRep').click(function(e){
     if($('#cake').is(":hidden")){
         $('#cake').removeAttr("hidden");
-        $('#cakeMusic')[0].play();
     } else if ($('#cake').children("div").is(":visible")){
         e.stopPropagation();
         $('#cake').prop("hidden", "true");
@@ -118,7 +111,6 @@ $('#reactRep').click(function(e){
 $('#socketVig').click(function(e){
     if($('#socket').is(":hidden")){
         $('#socket').removeAttr("hidden");
-        $('#socketMusic')[0].play();
     } else if ($('#socket').children("div").is(":visible")){
         e.stopPropagation();
         $('#socket').prop("hidden", "true");
@@ -128,7 +120,6 @@ $('#socketVig').click(function(e){
 $('#socketRep').click(function(e){
     if($('#socket').is(":hidden")){
         $('#socket').removeAttr("hidden");
-        $('#socketMusic')[0].play();
     } else if ($('#socket').children("div").is(":visible")){
         e.stopPropagation();
         $('#socket').prop("hidden", "true");

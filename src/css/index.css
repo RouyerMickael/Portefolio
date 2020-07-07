@@ -1,6 +1,18 @@
 /*ALL*/
 h3{
     font-family: 'Nunito', sans-serif;
+    background-color: black;
+    border-bottom: white 2px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0.5rem;
+}
+a{
+    color: rgba(255, 228, 78, 0.966);
+}
+a:hover{
+    color: rgba(255, 228, 78, 0.966);
+    text-decoration: none;
 }
 
 /*NAVBAR*/
@@ -50,6 +62,8 @@ body{
     font-family: 'Nunito', sans-serif;
     text-shadow: black 1px 0 10px;
     border-top: white 2px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background-color: rgb(0, 0, 0, 0.75);
@@ -59,7 +73,7 @@ body{
 #presentation{
     min-height: 40vh;
     padding-top: 8rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -80,11 +94,33 @@ body{
 /*CONTACT*/
 #contact{
     min-height: 60vh;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
+}
+.div_contact{
+    border: 2px white solid;
+    border-radius: 10px;
+    background-image: url("../../assets/img/backgrounds/cassis_blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0;
+    padding-left: 0;
+}.titleContacts{
+    border: none;
+}
+.contentContact{
+    background-color: rgba(44,44,44, 0.9);
+    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+.linkContacts{
+    color: rgba(255, 228, 78, 0.966);
+    text-decoration: underline;
 }
 .alert{
     padding: 0;
@@ -93,15 +129,31 @@ body{
 
 /*QUALITES*/
 #qualites{
+    background-color: rgb(158, 158, 158);
     padding-top: 8rem;
     padding-bottom: 8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
 }
+.div_qualites{
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
 .grid{
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+.titreQualites{
+    background-color: black;
+    border-radius: 2.5px;
+    padding: 0.5rem;
+}
+.colsQualites{
+    margin-top: 1rem;
+    line-height: 1rem;
 }
 .colUp{
     padding-bottom: 2rem;
@@ -118,19 +170,30 @@ body{
     color: black;
 }
 .logo{
-    max-width: 5rem;
+    max-width: 4rem;
     margin-top: 0.5rem;
     margin-right: 1.25rem;
     margin-bottom: 1rem;
 }
-.job{
-    margin-top: 1rem;
+.logoReact{
+    max-width: 6rem;
+    margin-bottom: 0.5rem;
+}
+.btnRecup{
+    background-color: rgba(255, 228, 78, 0.966);
+    color: rgb(44, 44, 44);
+    border: rgb(44, 44, 44) double 1px;
+    border-width: 0.25rem;
+}
+.btnRecup:hover{
+    background-color: rgb(44, 44, 44);
+    border: rgba(255, 228, 78, 0.966) double 1px;
 }
 
 /*PROJECTS*/
 #projects{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
@@ -156,10 +219,22 @@ body{
     height: 170px;
 }
 .vigns{
-    margin-top: 2rem;
+    margin-top: 5rem;
+}
+.replierAll{
+    margin-top: 5rem;
+    padding: 2rem;
+    border-top: white 2px solid;
+    color: rgb(74, 107, 218);
 }
 .separate{
     margin: 1rem;
+}
+.clickVign{
+    color: white;
+}
+.linkVigns{
+    color: white;
 }
 .titleVign{
     position: absolute;
@@ -171,20 +246,20 @@ body{
     background-color: rgba(31, 31, 31, 0.5);
 }
 .lookProject{
-    line-height: 1rem;
+    padding-top: 6rem;
+    line-height: 0.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+.titreProjects{
+    background-color: black;
+    border-radius: 2.5px;
+    padding: 0.5rem;
 }
 .audio{
     margin-bottom: 1rem;
 }
 .replier{
-    margin-top: 3rem;
-    padding: 2rem;
-    border-top: white 2px solid;
-    color: rgb(74, 107, 218);
-}
-.replierAll{
     margin-top: 3rem;
     padding: 2rem;
     border-top: white 2px solid;
@@ -199,11 +274,23 @@ body{
 
 /*CENTRES D'INTERET*/
 #hobbies{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
+    background-image: url("../../assets/img/backgrounds/loup.jpg");
+}
+.rowTitreHobbies{
+    margin-bottom: 2rem;
+}
+.titreHobbies{
+    background-color: rgb(44, 44, 44);
+    border-radius: 2.5px;
+    padding: 0.5rem;
+}
+.hobbiesRow{
+    border-radius: 10px;
 }
 .imgHobbies{
     max-height: 14rem;
@@ -214,16 +301,20 @@ body{
     max-height: 10rem;
     margin: 1rem; 
 }
+.intermediaire{
+    color: rgb(44, 44, 44);
+}
 
 /*FORMULAIRE*/
 #formSection{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
 }
 .form{
+    margin-top: 2rem;
     background-color: black;
     border: 2px white solid;
     border-radius: 5px;
@@ -232,18 +323,19 @@ body{
 
 /*BONUS*/
 #bonus{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
+    background-color: rgb(158, 158, 158);
 }
 .bg-text-bonus{
     max-height: 30%;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;    font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
