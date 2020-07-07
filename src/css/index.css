@@ -280,6 +280,8 @@ body{
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
     background-image: url("../../assets/img/backgrounds/loup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .rowTitreHobbies{
     margin-bottom: 2rem;
