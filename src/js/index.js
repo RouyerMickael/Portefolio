@@ -163,6 +163,3 @@ $('#algoRep').click(function(e){
 
 
 
-
-
-

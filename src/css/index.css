@@ -103,16 +103,17 @@ body{
 .div_contact{
     border: 2px white solid;
     border-radius: 10px;
+    padding-right: 0;
+    padding-left: 0;
     background-image: url("../../assets/img/backgrounds/cassis_blur.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-right: 0;
-    padding-left: 0;
-}.titleContacts{
+}
+.titleContacts{
     border: none;
 }
 .contentContact{
-    background-color: rgba(44,44,44, 0.9);
+    background-color: rgb(70, 70, 70, 0.8);
     padding: 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -124,6 +125,7 @@ body{
 }
 .alert{
     padding: 0;
+    background-color: white;
     color: red;
 }
 
@@ -184,10 +186,12 @@ body{
     color: rgb(44, 44, 44);
     border: rgb(44, 44, 44) double 1px;
     border-width: 0.25rem;
+    font-size: 20px;
 }
 .btnRecup:hover{
     background-color: rgb(44, 44, 44);
     border: rgba(255, 228, 78, 0.966) double 1px;
+    border-width: 0.25rem;
 }
 
 /*PROJECTS*/
@@ -287,9 +291,10 @@ body{
     margin-bottom: 2rem;
 }
 .titreHobbies{
-    background-color: rgb(44, 44, 44);
+    background-color: black;
     border-radius: 2.5px;
     padding: 0.5rem;
+    padding-left: 1rem;
 }
 .hobbiesRow{
     border-radius: 10px;
@@ -325,22 +330,24 @@ body{
 
 /*BONUS*/
 #bonus{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     margin-left: 1rem;
     margin-right: 1rem;
     border-bottom: rgba(255, 255, 255, 0.472) 0.5px solid;
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(44, 44, 44);
+}
+.titleBonus{
+    margin-bottom: 5rem;
 }
 .bg-text-bonus{
     max-height: 30%;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px black;    font-weight: bold;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
-
 }
 
