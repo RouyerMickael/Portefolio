@@ -23,6 +23,9 @@
             <a href="#hobbies">
                 <li class="navItem list-unstyled list-group-item">Hobbies</li>
             </a>
+            <a href="#formSection">
+                <li class="navItem list-unstyled list-group-item">Formulaire</li>
+            </a>
             <a href="#bonus">
                 <li class="navItem list-unstyled list-group-item">Bonus</li>
             </a>
@@ -33,14 +36,12 @@
         <div class="centered text-center">
             <h2 class="seServir ml3">"Se servir d'hier pour construire demain."</h2>
             <h4 class="rouyer">Rouyer Mickael | Développeur Web</h4>
-            <p class="text-center">(Impératifs de projet : no-templates, flat-design, seo, responsive)</p>
-            <p class="text-center">WORK IN PROGRESS....</p>
         </div>
     </div>
     <!--Presentation-->
     <div id="presentation" class="container-fluid">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center rowPresentation">
                 <div class="col-9">
                     <div class="row">
                         <h3 class="presTitle">PRESENTATION</h3>
@@ -69,7 +70,7 @@
                 </div>
                 <br/>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col">
                         <h4><span class="titre">Mail de contact:</span></h4>
                         <a class="linkContacts" target="_blank" href="mailto:mickael.rouyer@outlook.fr"><h5>mickael.rouyer@outlook.fr</h5></a>
                         <br/>
@@ -81,7 +82,7 @@
                         <h5>13780 Cuges-les-Pins</h5>
                         <br/>
                     </div>
-                    <div class="col-6">
+                    <div class="col">
                         <h4><span class="titre">Réseaux sociaux professionnels:</span></h4>
                         <a class="linkContacts" target="_blank" href="https://www.linkedin.com/in/mickael-rouyer"><h5>www.linkedin.com/in/mickael-rouyer</h5></a>
                         <br/>
@@ -828,6 +829,47 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!--FORM-->
+    <div id="formSection" class="container-fluid">
+        <div class="container">
+            <div class="col">
+                <div class="row">
+                    <h3>ME CONTACTER : (! EN PHASE DE TESTS !)</h3>
+                </div>
+                <br/>
+                <form class="form" method="POST" action="">
+                    <div class="row">
+                        <div class="form-group col">
+                            <label for="name" class="h4">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Entrez votre nom" required>
+                        </div>
+                        <div class="form-group col">
+                            <label for="email" class="h4">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Entrez votre adresse email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="h4 ">Sujet</label>
+                        <input type="text" id="subject" class="form-control" name="subject" placeholder="Entez le sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="h4 ">Message</label>
+                        <textarea id="message" class="form-control" rows="5" name="message" placeholder="Entez le message" required></textarea>
+                    </div>
+                    <div class="text-right">
+                        <button type="submit" id="submit" class="btn btn-success btn-lg ">Envoyer</button>
+                    </div>
+                    <div id="msgSubmit" class="h3 text-center hidden">
+                        <?php if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])){
+                            include('src/php/functions.php');
+                            sendMail($_POST);
+                            }
+                        ?>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
