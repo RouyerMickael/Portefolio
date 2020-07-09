@@ -110,6 +110,7 @@ body{
 @media screen and (max-width: 440px) {
     #presentation{
         margin: auto;
+        padding-top: 13rem;
     }
     .rowPresentation{
         display: flex !important;
@@ -168,8 +169,6 @@ body{
         margin: 0px !important;
     } 
 }
-
-
 
 /*QUALITES*/
 #qualites{
@@ -260,6 +259,9 @@ body{
     }
 }
 @media screen and (max-width: 440px) {
+    #qualites{
+        padding-top: 13rem;
+    }
     .div_qualites{
         padding: 0px;
     } 
@@ -372,6 +374,9 @@ body{
     }
 }
 @media screen and (max-width: 440px) {
+    #projects{
+        padding-top: 13rem;
+    }
     .clickVign{
         font-size: 0px;
     } 
@@ -427,6 +432,9 @@ body{
     color: rgb(44, 44, 44);
 }
 @media screen and (max-width: 440px) {
+    #hobbies{
+        padding-top: 13rem;
+    }
     .intermediaire{
         text-align: center;
     } 
