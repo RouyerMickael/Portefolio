@@ -80,7 +80,7 @@ body{
 }
 @media screen and (max-width: 440px) {
     .centered{
-        top: 63%;
+        top: 80%;
     } 
 }
 
@@ -460,6 +460,12 @@ body{
     border-radius: 5px;
     padding: 3rem;
 }
+@media screen and (max-width: 440px) {
+    #formSection{
+        padding-top: 13rem;
+    }
+}
+
 
 /*BONUS*/
 #bonus{
@@ -482,5 +488,10 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
+}
+@media screen and (max-width: 440px) {
+    #bonus{
+        padding-top: 13rem;
+    }
 }
 
