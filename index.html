@@ -837,7 +837,7 @@
         <div class="container">
             <div class="col">
                 <div class="row">
-                    <h3>ME CONTACTER : (! EN PHASE DE TESTS !)</h3>
+                    <h3>ME CONTACTER : (! indisponible sur ce serveur !)</h3>
                 </div>
                 <br/>
                 <form class="form" method="POST" action="">
@@ -860,7 +860,7 @@
                         <textarea id="message" class="form-control" rows="5" name="message" placeholder="Entez le message" required></textarea>
                     </div>
                     <div class="text-right">
-                        <button type="submit" id="submit" class="btn btn-success btn-lg ">Envoyer</button>
+                        <button type="submit" id="submit" class="btn btn-secondary btn-lg" disabled>Envoyer</button>
                     </div>
                     <div id="msgSubmit" class="h3 text-center hidden">
                         <?php if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])){
@@ -884,8 +884,8 @@
                 <a href="src/puissance4/puissance4.html" target="_blank">
                     <img class="bg-image img-thumbnail" src="assets/img/projects/bonus.jpg">
                     <div class="bg-text-bonus">
-                        <h4>Une petite partie de Puissance 4 en JS ? </h4>
-                        <h5>(nécessite 2 joueurs)<h5>
+                        <h4 class="petitePartie">Une petite partie de Puissance 4 en JS ? </h4>
+                        <h5 class="petitePartie">(nécessite 2 joueurs)<h5>
                     </div>
                 </a>
             </div>
