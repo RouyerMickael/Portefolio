@@ -51,7 +51,7 @@ a:hover{
         text-align: center;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     .navPerso{
         border-bottom: dotted 1px grey;
         padding-bottom: 0;
@@ -63,6 +63,11 @@ a:hover{
         border: 0;
         padding: 0.25rem;
     } 
+}
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    .navPerso{
+        visibility: hidden;
+    }
 }
 
 
@@ -129,12 +134,25 @@ body{
         background-color: transparent;
     } 
     .seServir{
-        height: 0;
+        visibility: hidden;
         font-size: 0;
     } 
     .rouyer{
         border: 2px white solid;
         padding: 1rem;
+    }
+}
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    .centered{
+        background-color: rgb(0, 0, 0, 0.75);
+        top: 50%;
+        padding: 1rem;
+    }
+    .seServir{
+        visibility: inherit;
+        font-size: 20px;
+        padding: 1rem;
+        margin: 0;
     }
 }
 
@@ -198,7 +216,7 @@ body{
         padding-top: 14rem;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #presentation{
         padding-top: 9rem;
         padding-bottom: 2rem;
@@ -209,9 +227,14 @@ body{
     .presText{
         font-size: 13px;
         text-align: justify;
-    }
-    
+    }  
 }
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    #presentation{
+        padding-top: 3rem;
+    }
+}
+
 
 
 
@@ -269,10 +292,15 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #contact{
         padding-bottom: 9rem;
     } 
+}
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    #contact{
+        padding-bottom: 3rem;
+    }
 }
 
 
@@ -394,7 +422,7 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #qualites{
         padding-top: 9rem;
         padding-bottom: 9rem;
@@ -403,6 +431,13 @@ body{
         font-size: 15px;
     }
 }
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    #qualites{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
 
 
 
@@ -529,7 +564,7 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #projects{
         padding-top: 9rem;
         padding-bottom: 9rem;
@@ -559,6 +594,16 @@ body{
         font-size: 12px;
     }
 }
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    #projects{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .lookProject{
+        padding-top: 3rem !important;
+    }
+}
+
 
 
 
@@ -619,7 +664,7 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #hobbies{
         margin: 0rem;
         padding-top: 9rem;
@@ -637,6 +682,13 @@ body{
         margin-bottom: 1rem;
     }
 }
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    #hobbies{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
 
 
 
@@ -672,8 +724,10 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #formSection{
+        margin-left: 0;
+        margin-right: 0;
         padding-top: 9rem;
         padding-bottom: 9rem;
     } 
@@ -685,6 +739,14 @@ body{
         min-width: 90px;
     }
 }
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    #formSection{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+
 
 
 /*BONUS*/
@@ -721,8 +783,10 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #bonus{
+        margin-left: 0;
+        margin-right: 0;
         padding-top: 9rem;
         padding-bottom: 9rem;
     } 
@@ -736,4 +800,11 @@ body{
         font-size: 13px;
     }
 }
+@media screen and (max-width: 272px), screen and (max-height: 440px){
+    #bonus{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
 
