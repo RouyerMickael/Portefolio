@@ -14,6 +14,24 @@ a:hover{
     color: rgba(255, 228, 78, 0.966);
     text-decoration: none;
 }
+@media screen and (max-width: 360px),  screen and (max-height: 500px) {
+    .container{
+        padding: 0rem;
+    }
+    h3{
+        font-size: 20px;
+        margin-bottom: 0 !important;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 15px; 
+    }
+}
 
 /*NAVBAR*/
 .navPerso{
@@ -33,6 +51,20 @@ a:hover{
         text-align: center;
     } 
 }
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
+    .navPerso{
+        border-bottom: dotted 1px grey;
+        padding-bottom: 0;
+    }
+    .navItem{
+        width: 120px;
+        margin: 0;
+        margin-bottom: 0.5rem !important;
+        border: 0;
+        padding: 0.25rem;
+    } 
+}
+
 
 
 /*BODY*/
@@ -90,9 +122,9 @@ body{
         top: 65%;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 620px) {
     .centered{
-        top: 76%;
+        top: 60%;
         border: 0px;
         background-color: transparent;
     } 
@@ -166,10 +198,19 @@ body{
         padding-top: 14rem;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
     #presentation{
-        padding-top: 25rem;
+        padding-top: 9rem;
+        padding-bottom: 2rem;
     } 
+    .colPresentation{
+        padding: 0;
+    }
+    .presText{
+        font-size: 13px;
+        text-align: justify;
+    }
+    
 }
 
 
@@ -228,9 +269,9 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
     #contact{
-        padding-bottom: 25rem;
+        padding-bottom: 9rem;
     } 
 }
 
@@ -353,11 +394,14 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
     #qualites{
-        padding-top: 25rem;
-        padding-bottom: 25rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
     } 
+    .btnRecup{
+        font-size: 15px;
+    }
 }
 
 
@@ -485,11 +529,35 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
     #projects{
-        padding-top: 25rem;
-        padding-bottom: 25rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
     } 
+    .vigns{
+        margin-top: 2rem;
+    }
+    .lookProject{
+        padding-top: 9rem !important;
+    }
+    .lookProject .col{
+        padding: 0 !important;
+    }
+    .audio{
+        width: 90%;
+    }
+    .lookProject .row{
+        display: block !important;
+        text-align: center;
+    }
+    .lookProject .img-thumbnail{
+        width: 80%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .replier h6{
+        font-size: 12px;
+    }
 }
 
 
@@ -551,11 +619,18 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
     #hobbies{
-        padding-top: 25rem;
-        padding-bottom: 25rem;
+        margin: 0rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
     } 
+    .rowTitreHobbies{
+        margin-bottom: 0;
+    }
+    .titreHobbies{
+        margin-bottom: 0;
+    }
     .imgHobbies{
         margin: 0;
         margin-top: 1rem;
@@ -597,11 +672,18 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
     #formSection{
-        padding-top: 25rem;
-        padding-bottom: 25rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
     } 
+    .form{
+        margin: 0rem;
+        padding: 1rem;
+    }
+    input{
+        min-width: 90px;
+    }
 }
 
 
@@ -639,13 +721,16 @@ body{
         padding-bottom: 14rem;
     } 
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px),  screen and (max-height: 600px) {
     #bonus{
-        padding-top: 25rem;
-        padding-bottom: 25rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
     } 
+    .titleBonus{
+        margin-bottom: 1rem;
+    }
     .bg-text-bonus{
-        top: 72%;  
+        top: 60%;  
     }
     .petitePartie{
         font-size: 13px;
