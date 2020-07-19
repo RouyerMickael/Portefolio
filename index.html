@@ -14,17 +14,17 @@
             <a href="#presentation">
                 <li class="navItem list-unstyled list-group-item">Présentation</li>
             </a>
+            <a class="navContacts" href="#contact">
+                <li class="navItem list-unstyled list-group-item">Contacts</li>
+            </a>
             <a href="#qualites">
-                <li class="navItem list-unstyled list-group-item">Qualités</li>
+                <li class="navItem list-unstyled list-group-item">Parcours</li>
             </a>
             <a href="#projects">
-                <li class="navItem list-unstyled list-group-item">Projets</li>
+                <li class="navItem list-unstyled list-group-item">Compétences</li>
             </a>
             <a href="#hobbies">
                 <li class="navItem list-unstyled list-group-item">Hobbies</li>
-            </a>
-            <a href="#formSection">
-                <li class="navItem list-unstyled list-group-item">Formulaire</li>
             </a>
             <a href="#bonus">
                 <li class="navItem list-unstyled list-group-item">Bonus</li>
@@ -48,11 +48,11 @@
                     </div>
                     <br/>
                     <h5 class="presText">
-                        Méthodique, rigoureux, travailleur... J'ai depuis toujours été attiré par l'informatique et ses nombreux dérivés. Travailleur
-                        depuis mes 18ans (vente/management), il était compliqué 
-                        pour moi de trouver le bon moment de tenter autre chose. Finalement une opportunité s'est offerte via
-                        Epitech Marseille, et un accord a pu être trouvé avec mon ancien employeur.
-                        Depuis Septembre 2019, je code donc tout type de langage Front et Back-end.
+                        " Méthodique, rigoureux, travailleur... J'ai depuis toujours été attiré par l'informatique et 
+                        ses nombreux dérivés. Travailleur depuis mes 18ans (vente/management), j'ai pu rejoindre Epitech 
+                        Marseille en Septembre 2019. C'est une formation de 2ans, très intensive, donnant lieu à une 
+                        multitudes de projets fonctionnels dans le but de devenir développeur Full-Stack, et je suis 
+                        déterminé à atteindre cette objectif. "
                     </h5>
                 </div>
                 <div class="col-3 text-center cadrePhoto">
@@ -87,9 +87,10 @@
                         <a class="linkContacts" target="_blank" href="https://www.linkedin.com/in/mickael-rouyer"><h5>www.linkedin.com/in/mickael-rouyer</h5></a>
                         <br/>
                         <h4><span class="titre">Recherche:</span></h4>
-                        <h5 class="alert">Contrat de professionnalisation en alternance à partir de Septembre 2020</h5>
+                        <h5 class="">Contrat de professionnalisation en alternance</h5>
+                        <br/>
                         <h4><span class="titre">Statut:</span></h4>
-                        <h5 class="alert">Non trouvé !</h5>
+                        <h5 class="good">Disponible à partir du 14 Septembre 2020 !</h5>
                     </div>
                 </div>
             </div>
@@ -109,11 +110,14 @@
                             <h4><span class="titreQualites">Formations</span></h4>
                         </div>
                         <div class="col colsQualites">
-                            <h5>Depuis novembre 2019 :</h5>
+                            <h5>
+                                <img class="logoEpitech" src="./assets/img/comp/epitech.png" > Marseille
+                            </h5>
+                            <h5>Formation Web@cadémie depuis novembre 2019, sur 2ans. Diplôme :</h5>
+                            <br/>
                             <ul>
-                                <li><h5>Développeur web bac+2</h5></li>
+                                <li><h5><b>Développeur Full-Stacks bac+2</b></h5></li>
                             </ul>                  
-                            <h5>At : Web@cadémie - Epitech Marseille</h5>
                         </div>
                         </div>
                     </div>
@@ -270,7 +274,7 @@
             <br/>
             <div class="row">
                 <div class="col text-center">
-                    <a href="assets/docs/cv.pdf" download>
+                    <a href="assets/docs/cv_de_rouyer_mickael.pdf" download>
                         <button type="button" class="btn btn-primary btnRecup">Récupérer mon CV</button>
                     </a>  
                 </div>           
@@ -829,50 +833,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!--FORM-->
-    <div id="formSection" class="container-fluid">
-        <div class="container">
-            <div class="col">
-                <div class="row">
-                    <h3>
-                        <p>ME CONTACTER : </p>
-                        <p>(! indisponible sur ce serveur !)</p>
-                    </h3>
-                </div>
-                <br/>
-                <form class="form" method="POST" action="">
-                    <div class="row">
-                        <div class="form-group col">
-                            <label for="name" class="h5">Name</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Indisponible" required>
-                        </div>
-                        <div class="form-group col">
-                            <label for="email" class="h5">Email</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Indisponible" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject" class="h5 ">Sujet</label>
-                        <input type="text" id="subject" class="form-control" name="subject" placeholder="Indisponible" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="h5 ">Message</label>
-                        <textarea id="message" class="form-control" rows="5" name="message" placeholder="Indisponible" required></textarea>
-                    </div>
-                    <div class="text-right">
-                        <button type="submit" id="submit" class="btn btn-secondary btn-lg" disabled>Envoyer</button>
-                    </div>
-                    <div id="msgSubmit" class="h3 text-center hidden">
-                        <?php if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])){
-                            include('src/php/functions.php');
-                            sendMail($_POST);
-                            }
-                        ?>
-                    </div>
-                </form>
             </div>
         </div>
     </div>

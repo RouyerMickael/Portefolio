@@ -45,11 +45,19 @@ a:hover{
     color: white;
     font-family: 'Nunito', sans-serif;
 }
+.navContacts{
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    .navContacts{
+        display: block;
+    }
+}
 @media screen and (max-width: 770px) {
     .navItem{
         margin: 0.25rem;
         text-align: center;
-    } 
+    }     
 }
 @media screen and (max-width: 360px),  screen and (max-height: 620px) {
     .navPerso{
@@ -163,7 +171,7 @@ body{
 #presentation{
     min-height: 40vh;
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -174,17 +182,16 @@ body{
     margin-bottom: 1rem;
 }
 .presText{
+    background-color: rgb(44, 44, 44);
+    padding: 1rem;
+    text-align: justify;
+    font-style: italic;
+    border-radius: 10px;
     line-height: 2rem;
 }
 .photo{
     margin-left: 1rem;
     max-height: 220px;
-}
-@media screen and (max-width: 768px) {
-    #presentation{
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-    } 
 }
 @media screen and (max-width: 550px) {
     #presentation{
@@ -243,7 +250,7 @@ body{
 /*CONTACT*/
 #contact{
     min-height: 60vh;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 8rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -273,9 +280,14 @@ body{
     text-decoration: underline;
 }
 .alert{
-    padding: 0;
+    padding: 0.25rem;
     background-color: white;
     color: red;
+}
+.good{
+    padding: 0.25rem;
+    background-color: white;
+    color: green;
 }
 @media screen and (max-width: 650px) {
     #contact{
@@ -284,21 +296,25 @@ body{
 }
 @media screen and (max-width: 990px) {
     #contact{
+        padding-top: 11rem;
         padding-bottom: 11rem;
     } 
 }
 @media screen and (max-width: 515px) {
     #contact{
+        padding-top: 14rem;
         padding-bottom: 14rem;
     } 
 }
 @media screen and (max-width: 360px),  screen and (max-height: 620px) {
     #contact{
+        padding-top: 9rem;
         padding-bottom: 9rem;
     } 
 }
 @media screen and (max-width: 272px), screen and (max-height: 440px){
     #contact{
+        padding-top: 3rem;
         padding-bottom: 3rem;
     }
     .contentContact .col{
@@ -353,6 +369,16 @@ body{
 }
 .logo{
     max-width: 4rem;
+    margin-top: 0.5rem;
+    margin-right: 0.62rem;
+    margin-left: 0.62rem;
+    margin-bottom: 1rem;
+}
+.logoEpitech{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    max-width: 6rem;
     margin-top: 0.5rem;
     margin-right: 0.62rem;
     margin-left: 0.62rem;
